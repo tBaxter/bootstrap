@@ -1,4 +1,23 @@
-# [Bootstrap](http://getbootstrap.com)
+# Meaningful [Bootstrap](http://getbootstrap.com)
+
+This is a proof of concept fork of Bootstrap to illustrate how to implement some of the ideas from [Meaningful CSS](http://alistapart.com/article/meaningful-css-style-like-you-mean-it).
+
+It is intended for illustration purposes only, and makes no pretense of being complete or production-ready.
+
+## Done:
+
+* Basic buttons
+
+
+## Partially done:
+
+* Alerts
+
+## Coming soon
+* .disabled
+* .active
+
+## All that Bootstrap stuff...
 
 [![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com)
 ![Bower version](https://img.shields.io/bower/v/bootstrap.svg)

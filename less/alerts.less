@@ -6,7 +6,9 @@
 // Base styles
 // -------------------------
 
-.alert {
+
+[role="alert"],
+[role="alertdialog"] {
   padding: @alert-padding;
   margin-bottom: @line-height-computed;
   border: 1px solid transparent;
@@ -35,16 +37,15 @@
   }
 }
 
-// Dismissible alerts
+// Dismissible alerts (alertdialog)
 //
 // Expand the right padding and account for the close button's positioning.
 
-.alert-dismissable, // The misspelled .alert-dismissable was deprecated in 3.2.0.
-.alert-dismissible {
+[role="alertdialog"] {
   padding-right: (@alert-padding + 20);
 
   // Adjust close link position
-  .close {
+  button {
     position: relative;
     top: -2px;
     right: -21px;

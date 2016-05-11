@@ -6,7 +6,8 @@
 // Base styles
 // --------------------------------------------------
 
-.btn {
+button,
+[role="button"] {
   display: inline-block;
   margin-bottom: 0; // For input.btn
   font-weight: @btn-font-weight;
@@ -84,6 +85,11 @@
 // Danger and error appear as red
 .btn-danger {
   .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+}
+
+// submit buttons are inherently primary
+[type="submit"] {
+  .btn-primary();
 }
 
 
